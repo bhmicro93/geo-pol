@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { fetchGdelt, fetchNvd, fetchCisaKev, fetchOpenAlex, SourceRow } from '@/lib/sources';
+import { fetchGdelt, fetchNvd, fetchCisaKev, fetchOpenAlex, SourceRow } from '../../../lib/sources';
 
 const TOPICS = [
   "Cyber attacks",
